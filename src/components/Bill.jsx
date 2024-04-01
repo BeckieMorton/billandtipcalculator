@@ -1,13 +1,13 @@
 import React from "react";
 
-export const Bill = ({ bill, handleChangeBill }) => {
+export const Bill = ({ bill, onSetBill }) => {
   return (bill = (
     <div>
-      <p>How much was the bill? </p>
+      <label>How much was the bill? </label>
       <input
-        type="number"
+        type="text"
         value={bill}
-        onChange={handleChangeBill}
+        onChange={(e) => onSetBill(Number(e.target.value))}
         placeholder="Enter your bill"
       />
     </div>

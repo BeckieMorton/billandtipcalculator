@@ -1,10 +1,10 @@
 import React from "react";
-import { Display } from "./components/Display";
+import { TipCalculator } from "./components/TipCalculator";
 
 export const App = () => {
   return (
     <div>
-      <Display />
+      <TipCalculator />
     </div>
   );
 };
