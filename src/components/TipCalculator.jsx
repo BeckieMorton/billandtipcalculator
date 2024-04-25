@@ -19,7 +19,7 @@ export const TipCalculator = () => {
   }
   return (
     <div>
-      <h2>Tip Calculator</h2>
+      <h2>Tip Calculator 🍽</h2>
       <Bill bill={bill} onSetBill={setBill} />
       <CalculatePercentage
         percentage={myPercentage}
